@@ -1,0 +1,42 @@
+.formulario-color{
+    background-color: black;
+    color: white; 
+    font-size: larger;
+    margin: 400px; 
+     
+    
+   
+
+    
+    
+   
+}  
+body{
+    background-color: antiquewhite;
+}
+input{ 
+   background-color: darkgray; 
+   align-items: center; 
+   margin: 10px; 
+  
+    
+   
+
+  
+
+  
+} 
+.boton-aparte{
+    background-color: #FFEA30; 
+    color: black; 
+    font-size: large; 
+    padding: 1px; 
+    margin: 10px; 
+   
+  
+}  
+
+section{
+    text-align: center; 
+    
+}

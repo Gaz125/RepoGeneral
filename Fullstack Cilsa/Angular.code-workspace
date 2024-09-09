@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../Programacion/PythonCilsa"
+		},
+		{
+			"path": "../TrabajoFinalGimnasio"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Ejercicio 1"
+		},
+		{
+			"path": "../JavaScript"
+		},
+		{
+			"path": "../Trabajo Final Codo a Codo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Fullstack Cilsa"
+	}
+}

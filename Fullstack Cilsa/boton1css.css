@@ -1,0 +1,28 @@
+.boton1{
+    background-color: rgb(70, 70, 251); 
+    color: white; 
+    width: 100px;  
+    
+    
+} 
+
+.boton2{
+    background-color: rgb(116, 115, 115); 
+    color: white; 
+    
+     
+    
+} 
+.form-control{
+    width: 400px;
+} 
+
+.botonenviar{
+    margin:auto; 
+    background-color: rgb(83, 83, 247); 
+    color: white;
+} 
+.jumbotron{
+    text-align: justify;
+    background-color: rgb(198, 188, 188);
+}
