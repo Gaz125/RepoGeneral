@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+    background-color:aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* width: 960px; */
+}
+.contenedor{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: 50px 150px 1.25fr 1fr 100px;
+	grid-column-gap: 10px;
+	grid-row-gap: 5px;
+}
+.contenedor div{
+	border-radius: 15px;
+	/* border: 1px solid blue; */
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+}
+
+.descripcion{
+	border: 1px solid cyan;
+	background-color: darkcyan;
+	grid-column: 1/3 ;
+	grid-row:1/2;
+}
+.logo{
+	background-image: url(./regalo.jpg);
+	background-size: cover;
+	background-position: center;
+	grid-column:3/4;
+	grid-row:1/2;
+	background-color: darkcyan;
+}
+header{
+	grid-column:1/4;
+	grid-row:2/3;
+    /* width: 960px; */
+    /*height: 150px;*/
+    text-align: center;
+    color: #ffffff;
+    background-color: #d84efa;
+}
+
+.principal{
+	height: 350px;
+    margin: auto;
+	background-color: lightyellow;
+	grid-column:2/4;
+	grid-row:3/4;
+}
+
+.menu{
+	grid-column:1/2;
+	grid-row:3/4;
+}
+nav{   /**NAVEGADOR VERTICAL**/
+    width: 250px;
+    height: auto;
+    /* float: left; */
+    list-style-type: none;
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*background-color: coral;*/
+}
+.nav li{
+    list-style-type: none;
+    font-weight: bold;
+}
+.nav li a {
+    /*background-color: #F5A9E1;*/
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 0;
+    text-align: right;
+    display: block;
+}
+.nav li a:hover{
+    /*background-color: #FE2E9A;*/
+    color:#BF00FF;
+	font-weight: bolder;
+ }
+
+.f1{
+	background-color: silver;
+	grid-column:1/2;
+	grid-row:4/5;
+}
+.f2{
+	background-color: silver;
+	grid-column:2/3;
+	grid-row:4/5;
+}
+.f3{
+	background-color: silver;
+	grid-column:3/4;
+	grid-row:4/5;
+}
+.pie{
+	background-color: lightpink;
+	grid-column:1/4;
+	grid-row:5/6;
+}

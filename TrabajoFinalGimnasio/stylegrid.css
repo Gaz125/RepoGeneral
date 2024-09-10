@@ -1,0 +1,14 @@
+body{
+    background-color: blue; 
+
+} 
+
+.grid_layout{
+    background-color: black;
+} 
+
+.item{
+    width: 150px; 
+    height: 150px;
+
+}
